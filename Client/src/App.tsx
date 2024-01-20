@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import io from "socket.io-client";
-import Chat from "./Chat.jsx";
+import  { useState } from "react";
+import * as io from "socket.io-client";
+import Chat from "./Baat.jsx";
+
 import music from './mixkit-tile-game-reveal-960.wav'
 
 
