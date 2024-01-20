@@ -5,7 +5,11 @@ import Chat from "./Baat.jsx";
 import music from './mixkit-tile-game-reveal-960.wav'
 
 
-const socket = io.connect("http://localhost:1000");
+
+const serv ="https://chat-app-rrzo.onrender.com";
+
+// const socket = io.connect("http://localhost:1000");
+const socket = io.connect(serv);
 
 const App = () => {
   const [username, setUsername] = useState("");
