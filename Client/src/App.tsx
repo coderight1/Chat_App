@@ -8,8 +8,8 @@ import music from './mixkit-tile-game-reveal-960.wav'
 
 // const serv ="https://chat-app-rrzo.onrender.com";
 
-const socket = io.connect("http://localhost:1000");
-// const socket = io.connect("https://chat-app-rrzo.onrender.com");
+// const socket = io.connect("http://localhost:1000");
+const socket = io.connect("https://chat-app-rrzo.onrender.com");
 
 const App = () => {
   const [username, setUsername] = useState("");
